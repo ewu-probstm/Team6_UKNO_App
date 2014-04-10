@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UKNO EWU</string>
+    <string name="action_campus_map">Campus Map</string>
+    <string name="action_events">Events</string>
+    <string name="action_sports">Sports</string>
+    <string name="action_staff">Staff</string>
+    <string name="action_course">Course Information</string>
+    <string name="action_plus">PLUS/Tutoring</string>
+    <string name="action_campus_links">Campus Links</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_campus_links">Campus Links</string>
+    <string name="title_activity_events">Events</string>
+    <string name="title_activity_sports">Sports</string>
+    <string name="title_activity_plus">Plus/Tutoring</string>
+    <string name="title_activity_course">Course Information</string>
+    <string name="title_activity_campus_map">Campus Map</string>
+    <string name="title_activity_staff">Staff</string>
+    <string name="title_activity_web_view">Web View</string>
+    <string name="title_activity_department_list">Departments</string>
+    <string name="title_activity_course_details">CourseDetailsActivity</string>
+    <string name="title_activity_notification">Notification</string>
+
+    
+     <string name="teachers_title">Teachers</string>
+    <string name="departments_title">Departments</string>
+    <string name="webview_title">Web View</string>
+    
+    <string name="club_sport_list">Club Sports</string>
+    <string name="intramural_sport_list">Intramural Sports</string>
+    <string name="school_sport_list">School Sports</string>
+    
+</resources>
