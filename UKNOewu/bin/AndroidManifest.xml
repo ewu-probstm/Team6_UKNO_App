@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ewu.UKNOapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.ewu.UKNOapp.MainPage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ewu.UKNOapp.CampusLinksActivity"
+            android:label="@string/title_activity_campus_links" >
+        </activity>
+        <activity
+            android:name="com.ewu.UKNOapp.DepartmentListActivity"
+            android:label="@string/title_activity_department_list" >
+        </activity>
+        <activity
+            android:name="com.ewu.UKNOapp.EventsActivity"
+            android:label="@string/title_activity_events" >
+        </activity>
+        <activity
+            android:name="com.ewu.UKNOapp.SportsActivity"
+            android:label="@string/title_activity_sports" >
+        </activity>
+        <activity
+            android:name="com.ewu.UKNOapp.PlusActivity"
+            android:label="@string/title_activity_plus" >
+        </activity>
+        <activity
+            android:name="com.ewu.UKNOapp.CourseActivity"
+            android:label="@string/title_activity_course"
+            android:parentActivityName="com.ewu.UKNOapp.MainPage" >
+        </activity>
+        <activity
+            android:name="com.ewu.UKNOapp.CampusMapActivity"
+            android:label="@string/title_activity_campus_map" >
+        </activity>
+        <activity
+            android:name="com.ewu.UKNOapp.StaffActivity"
+            android:label="@string/title_activity_staff" >
+        </activity>
+        <activity
+            android:name="com.ewu.UKNOapp.WebViewActivity"
+            android:label="@string/title_activity_web_view"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyDr91bB6v4pDzTPh5h4Rv4kWNa8IeWEOYw" />
+
+        <activity
+            android:name="com.ewu.UKNOapp.CourseDetailsActivity"
+            android:label="@string/title_activity_course_details" >
+        </activity>
+        <activity
+            android:name="com.ewu.UKNOapp.NotificationActivity"
+            android:label="@string/title_activity_notification" >
+        </activity>
+    </application>
+
+</manifest>
